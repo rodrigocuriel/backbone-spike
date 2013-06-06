@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:rim="http://www.blackberry.com/ns/widgets" version="1.1.0.522" id="OnStar">
+
+  <name>RemoteLink</name>
+  <author href="http://www.onstar.com/web/portal/connectionsexplore?tab=2" rim:copyright="Copyright 2012 OnStar, LLC">OnStar, LLC</author>
+
+  <feature id="blackberry.identity" required="true" version="1.0.0.0"/>
+  
+  <access subdomains="true" uri="http://http://m.bing.com" />  
+  <access subdomains="true" uri="file:///store/home"/>
+  <access subdomains="true" uri="file:///SDCard"/>
+  <access subdomains="true" uri="*"/>
+  <access subdomains="true" uri="http://192.168.22.64/"/>
+  <access subdomains="true" uri="http://*/"/>
+  <access subdomains="true" uri="https://www.o830241w421934n.com/" />
+  <access subdomains="true" uri="https://www.uat.o830241w421934n.com/" />
+  <access subdomains="true" uri="https://www.test.o830241w421934n.com/" />
+  <access subdomains="true" uri="https://www.dev.o830241w421934n.com/" />
+  <access subdomains="true" uri="http://api.m.bing.net/SearchService/Search.svc/json/" />
+  <access subdomains="true" uri="https://sts.onstar.com/" />
+
+  <icon src="img/icon_app_114.png"/>
+
+  
+  <rim:splash src="img/splash_768_1280.png" />
+  <rim:connection timeout="30000">
+    <id>TCP_CELLULAR</id>
+    <id>TCP_WIFI</id>
+    <id>MDS</id>
+    <id>BIS-B</id>
+    <id>WAP2</id>
+    <id>WAP</id>
+  </rim:connection>
+
+  <rim:permissions> 
+    <rim:permit>read_geolocation</rim:permit> 
+  </rim:permissions>
+
+  <content src="index.html">
+    <!--<rim:background src="remoteLinklistener.html" runOnStartup="true" />-->
+  </content>
+  
+</widget>

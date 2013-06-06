@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Widget Configuration Reference:
+       http://docs.blackberry.com/en/developers/deliverables/15274/ -->
+
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:rim="http://www.blackberry.com/ns/widgets" version="1.1.0.522">
+
+  <name>RemoteLink</name>
+  <author href="http://www.onstar.com/web/portal/connectionsexplore?tab=2" rim:copyright="Copyright 2012 OnStar, LLC">OnStar, LLC</author>
+
+  <rim:cache maxCacheSizeTotal="2048" maxCacheSizeItem ="256" />
+  <feature id="blackberry.system" required="true" version="1.0.0.0"/>
+  
+  <feature id="blackberry.find" required="true" version="1.0.0.0"/>
+  <feature id="blackberry.identity" required="true" version="1.0.0.0"/>
+  <feature id="blackberry.pim.Address" required="true" version="1.0.0.0"/>
+  <feature id="blackberry.pim.Contact" required="true" version="1.0.0.0"/>
+  <feature id="blackberry.io.file" required="true" version="1.0.0.0"/>
+  <feature id="blackberry.utils" required="true" version="1.0.0.0"/>
+  <feature id="blackberry.io.dir" required="true" version="1.0.0.0"/>
+  <feature id="blackberry.app" required="true" version="1.0.0.0"/>
+  <feature id="blackberry.app.event" required="true" version="1.0.0.0"/>
+  <feature id="blackberry.system.event" required="true" version="1.0.0.0"/>
+  <feature id="blackberry.ui.menu" required="true" version="1.0.0.0"/>
+  <feature id="blackberry.ui.dialog" required="true" version="1.0.0.0"/>
+  <feature id="blackberry.invoke" required="true" version="1.0.0.0"/>
+  <feature id="blackberry.invoke.PhoneArguments"  required="true" version="1.0.0.0"/>
+  <feature id="blackberry.invoke.BrowserArguments" required="true" version="1.0.0.0"/>
+  <feature id="blackberry.invoke" required="true" version="1.0.0.0"/>
+  
+  <access subdomains="true" uri="http://http://m.bing.com" />  
+  <access subdomains="true" uri="file:///store/home"/>
+  <access subdomains="true" uri="file:///SDCard"/>
+  <access subdomains="true" uri="*"/>
+  <access subdomains="true" uri="http://192.168.22.64/"/>
+  <access subdomains="true" uri="http://*/"/>
+  <access subdomains="true" uri="https://www.o830241w421934n.com/" />
+  <access subdomains="true" uri="https://www.uat.o830241w421934n.com/" />
+  <access subdomains="true" uri="https://www.test.o830241w421934n.com/" />
+  <access subdomains="true" uri="https://www.dev.o830241w421934n.com/" />
+  <access subdomains="true" uri="http://api.m.bing.net/SearchService/Search.svc/json/" />
+  <access subdomains="true" uri="https://sts.onstar.com/" />
+  
+  <icon src="img/app_icon.png"/>
+  
+  <rim:loadingScreen foregroundImage="img/img_launch_init.png" onLocalPageLoad="true" onFirstLaunch="true">
+    <rim:transitionEffect type="slidePush" direction="left"/>
+  </rim:loadingScreen>
+
+  <rim:connection timeout="30000">
+    <id>TCP_CELLULAR</id>
+    <id>TCP_WIFI</id>
+    <id>MDS</id>
+    <id>BIS-B</id>
+    <id>WAP2</id>
+    <id>WAP</id>
+  </rim:connection>
+
+  <rim:permissions> 
+        <rim:permit>read_geolocation</rim:permit> 
+    </rim:permissions>
+  <rim:navigation mode="focus"/>
+  
+  <content src="index.html">
+  </content>
+
+</widget>

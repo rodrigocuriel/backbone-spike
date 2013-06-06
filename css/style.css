@@ -1,0 +1,136 @@
+/*
+@media all and (min-width: 320px) {
+	html, body {
+		width: 320px !important;
+		min-width: 320px !important;
+		max-width: 320px !important;
+		height: 240px !important;
+		min-height: 240px !important;
+		max-height: 240px !important;
+	}
+}
+@media all and (min-width: 480px) {
+	html, body {
+		width: 480px !important;
+		min-width: 480px !important;
+		max-width: 480px !important;
+		height: 360px !important;
+		min-height: 360px !important;
+		max-height: 360px !important;
+	}
+}
+@media all and (min-width: 580px) {
+	html, body {
+		width: 580px !important;
+		min-width: 580px !important;
+		max-width: 580px !important;
+		height: 900px !important;
+		min-height: 900px !important;
+		max-height: 900px !important;
+	}
+}
+@media all and (min-width: 640px) {
+	html, body {
+		width: 640px !important;
+		min-width: 640px !important;
+		max-width: 640px !important;
+		height: 480px !important;
+		min-height: 480px !important;
+		max-height: 480px !important;
+	}
+}
+@media all and (min-width: 874px) {
+	html, body {
+		width: 874px !important;
+		min-width: 874px !important;
+		max-width: 874px !important;
+		height: 580px !important;
+		min-height: 580px !important;
+		max-height: 580px !important;
+	}
+}
+*/
+* {
+	cursor: pointer;
+}
+html {
+	font-family: 'Arial', sans-serif;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+body {
+	background: #000;
+	color: #f4f1de;
+	overflow: hidden;
+}
+a {
+	color: #f4f1de;
+	text-decoration: underline;
+	-webkit-transition: color 0.15s ease-out;
+	-moz-transition: color 0.15s ease-out;
+}
+a:hover {
+	color: #863027;
+}
+p {
+	font-size: 1em;
+	margin: 0 0 1.5em 0;
+}
+#container {
+	background: #000;
+	margin: 0 auto;
+	position: relative;
+}
+header {
+	margin: 3.5% 0 4%;
+}
+.item {
+	margin: 10px;
+	float: left;
+	background: #D8D5D2;
+	color: #fff;
+}
+.item p {
+	text-align:center;
+	font-size:130px;
+	position: relative;
+	clear: both;
+	vertical-align: middle;
+	display: table-cell;
+}
+.hover {
+	color: #276419;
+}
+#selection p {
+	text-align:center;
+	font-size:130px;
+	position: relative;
+	clear: both;
+	vertical-align: middle;
+	display: table-cell;	
+}
+footer {
+	border-top: .12em solid #f4f1de;
+	clear: both;
+	padding-top: 2%;
+	margin-top: 3%;
+	display: block;
+	font-size: .8em;
+}
+footer p {
+	text-align: center;
+}
+h1 {
+	cursor: default;
+	font-weight: 400;
+	width: 100%;
+	text-align: center;
+}
+p {
+	font-size: .9em;
+}

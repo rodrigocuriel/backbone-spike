@@ -1,0 +1,143 @@
+@media all and (min-height: 801px) and (max-height: 1280px) {
+html,body,div[data-role="page"] {
+font-size:30px;
+height:1280px!important;
+max-height:1280px!important;
+max-width:768px!important;
+min-height:1280px!important;
+min-width:768px!important;
+width:768px!important;
+}
+}
+
+@media all and (min-height: 641px) and (max-height: 800px) {
+html,body,div[data-role="page"] {
+height:800px!important;
+max-height:800px!important;
+max-width:480px!important;
+min-height:800px!important;
+min-width:480px!important;
+width:480px!important;
+}
+}
+
+@media all and (min-height: 481px) and (max-height: 640px) {
+html,body,div[data-role="page"] {
+height:640px!important;
+max-height:640px!important;
+max-width:480px!important;
+min-height:640px!important;
+min-width:480px!important;
+width:480px!important;
+}
+}
+
+@media all and (max-height: 480px) {
+html,body {
+height:480px!important;
+max-height:480px!important;
+max-width:640px!important;
+min-height:480px!important;
+min-width:640px!important;
+width:640px!important;
+}
+}
+
+html,body {
+color:#fff;
+font-family:Arial,Helvetica,sans-serif;
+margin:0;
+overflow-x:hidden;
+padding:0;
+-webkit-font-smoothing:antialiased;
+-moz-font-smoothing:antialiased;
+-o-font-smoothing:antialiased;
+font-smooth:auto;
+}
+
+.container {
+background:#fff;
+bottom:0;
+margin:0 auto;
+padding:0;
+position:absolute;
+top:0;
+width:100%;
+}
+
+.page {
+min-height:460px;
+position:absolute;
+width:320px;
+}
+
+#content,.header,.footer {
+float:left;
+width:100%;
+}
+
+#content {
+left:0;
+position:absolute;
+right:0;
+}
+
+.header,.footer {
+color:#000;
+height:70px;
+}
+
+.header {
+background:url(../img/banner_blank_default.png) repeat-x center center transparent;
+}
+
+.footer {
+background:#fff;
+bottom:0;
+position:absolute;
+width:100%;
+}
+
+.footer ul {
+height:100%;
+line-height:70px;
+margin:0;
+padding:0;
+background:#366798;
+}
+
+.footer ul li {
+float:left;
+width:33%;
+}
+
+.footer .center {
+background:url(../img/ajax-loader-no-bg.gif) no-repeat left center transparent;
+text-align:center;
+}
+
+.header ul {
+height:100%;
+margin:0;
+padding:0;
+}
+
+.header ul li {
+float:left;
+}
+
+.header ul li.HeaderAppImageContainer {
+background:url(../img/banner_left_remotelink.png) no-repeat left center transparent;
+height:100%;
+width:250px;
+}
+
+.header ul li.HeaderBrandImageContainer {
+float:right;
+height:100%;
+width:170px;
+}
+
+.header ul li.branding-gmc {
+background:url(../img/right_logo_gmc_2x.png) no-repeat right center transparent;
+}

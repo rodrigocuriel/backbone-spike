@@ -1,0 +1,99 @@
+.springboardBG {
+background:url(../img/img_sb_bg.png) repeat-x 0 0 transparent;
+background-size:cover;
+bottom:0;
+top:70px
+}
+
+#hideSpringboard {
+background:url(../img/home.png) no-repeat center center #fff;
+height:40px;
+width:100%
+}
+
+#SpringboardMenu li img {
+border:3px solid transparent;
+border-radius:15px
+}
+
+#SpringboardMenu li img:hover {
+border:3px solid #0890f0
+}
+
+#SpringboardMenu li img:active {
+border:3px solid #0890f0
+}
+
+#SpringboardMenu li img.normal {
+border:3px solid transparent
+}
+
+.iconClass:hover {
+border:3px solid #0890f0;
+border-radius:8px
+}
+
+#SpringboardMenu li div,#SpringboardVoltMenu div {
+height:90px;
+margin:0 auto;
+margin-bottom:10px;
+position:relative;
+width:90px
+}
+
+#SpringboardMenu,#SpringboardVoltMenu {
+float:left;
+margin:0;
+padding:20px 0 0;
+width:100%
+}
+
+#SpringboardMenu li,#SpringboardVoltMenu li {
+float:left;
+font-size:23px;
+height:140px;
+/*margin-bottom:40px;*/
+text-align:center;
+width:33%
+}
+
+#SpringboardMenu li div,#SpringboardVoltMenu div {
+height:90px;
+width:90px
+}
+
+#SpringboardMenu li img,#SpringboardVoltMenu li img {
+border:3px solid transparent
+}
+
+#HomeId > div {
+background:url(../img/ic_sb_dash.png) no-repeat 0 0 transparent
+}
+
+#RemoteId > div {
+background:url(../img/ic_sb_remote.png) no-repeat 0 0 transparent
+}
+
+#NavId > div {
+background:url(../img/ic_sb_nav.png) no-repeat 0 0 transparent
+}
+
+#AssistId > div {
+background:url(../img/ic_sb_assist.png) no-repeat 0 0 transparent
+}
+
+#AlertsId > div {
+background:url(../img/ic_sb_alerts.png) no-repeat 0 0 transparent
+}
+
+#StatusId > div {
+background:url(../img/ic_sb_status.png) no-repeat 0 0 transparent
+}
+
+#VehicleId > div {
+background:url(../img/ic_sb_vehicle.png) no-repeat 0 0 transparent
+}
+
+#AppInfoId > div {
+background:url(../img/ic_sb_appinfo.png) no-repeat 0 0 transparent
+}

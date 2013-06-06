@@ -1,4 +1,4 @@
-backbone-spike
-==============
+backbone-spike by Rodrigo Curiel
+================================
 
-Backbone spike
+Backbone spike for RemoteLink app for BlackBerry and Windows Phone devices

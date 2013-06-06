@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>OnStar RemoteLink</title>
+    <meta name="viewport" id="viewport" content="width=480,height=800,user-scalable=no" />
+    <meta name="description" content="OnStar RemoteLink">
+    <meta name="author" content="OnStar">
+
+    <!-- Le styles -->
+    <link rel="stylesheet" href="css/reset.css" />
+    
+    <link rel="stylesheet" href="css/remotelink.css" />
+
+    <link rel="stylesheet" href="css/splash.css" />
+    <link rel="stylesheet" href="css/springboard.css" />
+
+    <!--<script src="http://use.edgefonts.net/andika.js"></script>-->
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div id="content"></div>
+        <div class="footer">&nbsp;</div>
+    </div>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="local:///chrome/webworks.js" type="text/javascript"></script>
+
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/jquery.color.js"></script>
+    <script src="js/lib/underscore-min.js"></script>
+    <script src="js/lib/backbone-min.js"></script>
+
+    <script src="js/lib/standard.js"></script>
+
+    <script src="js/utils.js"></script>
+    <script src="js/models/models.js"></script>
+    <script src="js/views/header.js"></script>
+    <script src="js/views/footer.js"></script>
+    <script src="js/views/splash.js"></script>
+    <script src="js/views/home.js"></script>
+    <script src="js/views/springboard.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <!-- This script is needed in order to get proper screen size and disable zoom on BlackBerry 10 devices -->
+    <script type = "text/javascript" >
+    if (isBlackBerrySmartphone() || isBlackBerryPlayBook()) {
+        var meta = document.getElementById('viewport');
+        meta.setAttribute('content', 'width=480,height=800,maximum-scale=' + (1 / window.devicePixelRatio) + ',user-scalable=no');
+        debug.log('maximum-scale ' + (1 / window.devicePixelRatio), debug.info);
+    }
+    </script>
+</body>
+</html>
